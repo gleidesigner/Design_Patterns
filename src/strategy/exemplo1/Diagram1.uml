@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1011.0492424242425" y="495.0">strategy.exemplo1.pato.PatoComum</node>
+    <node x="0.0" y="257.5">strategy.exemplo1.voo.VooSem</node>
+    <node x="717.3674242424242" y="495.0">strategy.exemplo1.pato.PatoDeBorracha</node>
+    <node x="1103.0" y="257.5">strategy.exemplo1.som.SomComum</node>
+    <node x="923.0" y="257.5">strategy.exemplo1.voo.VooComum</node>
+    <node x="180.00000000000006" y="257.5">strategy.exemplo1.som.SomMudo</node>
+    <node x="740.0" y="257.5">strategy.exemplo1.som.SomBorracha</node>
+    <node x="363.00000000000006" y="125.0">strategy.exemplo1.pato.Pato</node>
+    <node x="120.95075757575762" y="495.0">strategy.exemplo1.pato.PatoDeMadeira</node>
+    <node x="372.25000000000006" y="0.0">strategy.exemplo1.voo.CompVoo</node>
+    <node x="719.625" y="0.0">strategy.exemplo1.som.CompSom</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="strategy.exemplo1.voo.VooSem" target="strategy.exemplo1.voo.CompVoo">
+      <point x="0.0" y="-27.5" />
+      <point x="80.0" y="85.0" />
+      <point x="398.9166666666667" y="85.0" />
+      <point x="-53.33333333333337" y="27.5" />
+    </edge>
+    <edge source="strategy.exemplo1.som.SomComum" target="strategy.exemplo1.som.CompSom">
+      <point x="0.0" y="-27.5" />
+      <point x="1184.5" y="75.0" />
+      <point x="862.25" y="75.0" />
+      <point x="61.125" y="27.5" />
+    </edge>
+    <edge source="strategy.exemplo1.pato.PatoComum" target="strategy.exemplo1.som.SomComum">
+      <point x="50.666666666666686" y="-27.5" />
+      <point x="1137.7159090909092" y="475.0" />
+      <point x="1184.5" y="475.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="strategy.exemplo1.som.SomBorracha" target="strategy.exemplo1.som.CompSom">
+      <point x="0.0" y="-27.5" />
+      <point x="20.375" y="27.5" />
+    </edge>
+    <edge source="strategy.exemplo1.pato.PatoDeMadeira" target="strategy.exemplo1.voo.VooSem">
+      <point x="-58.0" y="-27.5" />
+      <point x="149.95075757575762" y="475.0" />
+      <point x="80.0" y="475.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="strategy.exemplo1.pato.PatoDeBorracha" target="strategy.exemplo1.pato.Pato">
+      <point x="-60.66666666666663" y="-27.5" />
+      <point x="747.7007575757576" y="475.0" />
+      <point x="541.5" y="475.0" />
+      <point x="0.0" y="160.0" />
+    </edge>
+    <edge source="strategy.exemplo1.pato.PatoComum" target="strategy.exemplo1.pato.Pato">
+      <point x="-50.66666666666666" y="-27.5" />
+      <point x="1036.382575757576" y="465.0" />
+      <point x="660.5" y="465.0" />
+      <point x="119.0" y="160.0" />
+    </edge>
+    <edge source="strategy.exemplo1.som.SomMudo" target="strategy.exemplo1.som.CompSom">
+      <point x="0.0" y="-27.5" />
+      <point x="261.50000000000006" y="95.0" />
+      <point x="740.0" y="95.0" />
+      <point x="-61.125" y="27.5" />
+    </edge>
+    <edge source="strategy.exemplo1.pato.PatoDeBorracha" target="strategy.exemplo1.voo.VooComum">
+      <point x="60.66666666666663" y="-27.5" />
+      <point x="869.0340909090909" y="475.0" />
+      <point x="963.0" y="475.0" />
+      <point x="-40.0" y="27.5" />
+    </edge>
+    <edge source="strategy.exemplo1.voo.VooComum" target="strategy.exemplo1.voo.CompVoo">
+      <point x="0.0" y="-27.5" />
+      <point x="1003.0" y="85.0" />
+      <point x="505.5833333333334" y="85.0" />
+      <point x="53.33333333333337" y="27.5" />
+    </edge>
+    <edge source="strategy.exemplo1.pato.Pato" target="strategy.exemplo1.som.CompSom">
+      <point x="89.25" y="-160.0" />
+      <point x="630.75" y="105.0" />
+      <point x="780.75" y="105.0" />
+      <point x="-20.375" y="27.5" />
+    </edge>
+    <edge source="strategy.exemplo1.pato.PatoDeMadeira" target="strategy.exemplo1.pato.Pato">
+      <point x="58.0" y="-27.5" />
+      <point x="265.9507575757576" y="475.0" />
+      <point x="422.50000000000006" y="475.0" />
+      <point x="-119.0" y="160.0" />
+    </edge>
+    <edge source="strategy.exemplo1.pato.PatoDeMadeira" target="strategy.exemplo1.som.SomMudo">
+      <point x="0.0" y="-27.5" />
+      <point x="207.95075757575762" y="465.0" />
+      <point x="261.50000000000006" y="465.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="strategy.exemplo1.pato.PatoDeBorracha" target="strategy.exemplo1.som.SomBorracha">
+      <point x="0.0" y="-27.5" />
+      <point x="808.3674242424242" y="475.0" />
+      <point x="821.5" y="475.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="strategy.exemplo1.pato.Pato" target="strategy.exemplo1.voo.CompVoo">
+      <point x="-89.25" y="-160.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="strategy.exemplo1.pato.PatoComum" target="strategy.exemplo1.voo.VooComum">
+      <point x="0.0" y="-27.5" />
+      <point x="1087.0492424242425" y="475.0" />
+      <point x="1043.0" y="475.0" />
+      <point x="40.0" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="633.0" y="275.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
