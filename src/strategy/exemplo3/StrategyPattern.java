@@ -1,6 +1,7 @@
 package strategy.exemplo3;
 
 import strategy.exemplo3.calculate.OperationAdd;
+import strategy.exemplo3.calculate.OperationDivision;
 import strategy.exemplo3.calculate.OperationMultiply;
 import strategy.exemplo3.calculate.OperationSubstrat;
 import strategy.exemplo3.context.Context;
@@ -16,10 +17,13 @@ public class StrategyPattern {
         System.out.println("10 + 5 = " + add.execStrategy(10, 5));
 
         Context sub = new Context(new OperationSubstrat());
-        System.out.println("10 + 5 = " + sub.execStrategy(10, 5));
+        System.out.println("10 - 5 = " + sub.execStrategy(10, 5));
 
         Context mult = new Context(new OperationMultiply());
-        System.out.println("10 + 5 = " + mult.execStrategy(10, 5));
+        System.out.println("10 * 5 = " + mult.execStrategy(10, 5));
+
+        Context div = new Context(new OperationDivision());
+        System.out.println("10 / 5 = " + div.execStrategy(10, 5));
 
     }
 }
