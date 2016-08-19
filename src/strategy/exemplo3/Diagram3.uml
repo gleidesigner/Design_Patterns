@@ -13,16 +13,16 @@
   </nodes>
   <notes />
   <edges>
-    <edge source="strategy.exemplo3.StrategyPattern" target="strategy.exemplo3.calculate.OperationDivision">
-      <point x="-71.19999999999999" y="-27.5" />
-      <point x="508.79999999999995" y="240.0" />
-      <point x="108.0" y="240.0" />
-      <point x="0.0" y="27.5" />
-    </edge>
     <edge source="strategy.exemplo3.StrategyPattern" target="strategy.exemplo3.calculate.OperationSubstrat">
       <point x="35.60000000000002" y="-27.5" />
       <point x="615.5999999999999" y="230.0" />
       <point x="816.0" y="230.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="strategy.exemplo3.StrategyPattern" target="strategy.exemplo3.calculate.OperationDivision">
+      <point x="-71.19999999999999" y="-27.5" />
+      <point x="508.79999999999995" y="240.0" />
+      <point x="108.0" y="240.0" />
       <point x="0.0" y="27.5" />
     </edge>
     <edge source="strategy.exemplo3.calculate.OperationAdd" target="strategy.exemplo3.calculate.StrategyOperation">
