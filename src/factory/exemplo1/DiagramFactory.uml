@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="348.0" y="105.0">factory.exemplo1.shape.Quadrado</node>
+    <node x="174.0" y="105.0">factory.exemplo1.shape.Retangulo</node>
+    <node x="174.0" y="0.0">factory.exemplo1.shape.Forma</node>
+    <node x="137.0" y="210.0">factory.exemplo1.factory.FabricaDesenho</node>
+    <node x="0.0" y="105.0">factory.exemplo1.shape.Circulo</node>
+    <node x="162.0" y="315.0">factory.exemplo1.factory.MainFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factory.exemplo1.factory.MainFactory" target="factory.exemplo1.factory.FabricaDesenho">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="factory.exemplo1.factory.FabricaDesenho" target="factory.exemplo1.shape.Circulo">
+      <point x="-76.0" y="-27.5" />
+      <point x="175.0" y="185.0" />
+      <point x="77.0" y="185.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="factory.exemplo1.shape.Retangulo" target="factory.exemplo1.shape.Forma">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="factory.exemplo1.shape.Circulo" target="factory.exemplo1.shape.Forma">
+      <point x="0.0" y="-27.5" />
+      <point x="77.0" y="80.0" />
+      <point x="199.66666666666666" y="80.0" />
+      <point x="-51.33333333333334" y="27.5" />
+    </edge>
+    <edge source="factory.exemplo1.factory.FabricaDesenho" target="factory.exemplo1.shape.Quadrado">
+      <point x="76.0" y="-27.5" />
+      <point x="327.0" y="185.0" />
+      <point x="425.0" y="185.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="factory.exemplo1.factory.FabricaDesenho" target="factory.exemplo1.shape.Retangulo">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="factory.exemplo1.shape.Quadrado" target="factory.exemplo1.shape.Forma">
+      <point x="0.0" y="-27.5" />
+      <point x="425.0" y="80.0" />
+      <point x="302.33333333333337" y="80.0" />
+      <point x="51.33333333333337" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="251.0" y="185.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

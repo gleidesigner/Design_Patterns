@@ -46,14 +46,14 @@ Design_Patterns (Padrões de Projeto) - Overview
   No padrão de fábrica, criamos objeto sem expor a lógica de criação para o cliente e referem-se objeto recém-criado usando uma interface comum.
   
 # Implementação
-  Nós vamos criar uma interface Forma e classes concretas de execução da interface de Shape.
+  Nós vamos criar uma interface Forma(Shape) e classes concretas de execução da interface de Shape.
   A ShapeFactory classe de fábrica é definido como um próximo passo.
   
   FactoryPatternDemo, a nossa classe de demonstração irá utilizar ShapeFactory para obter um objeto Shape.
   Ele vai passar informações (CIRCLE / RECTANGLE / QUADRADO) para ShapeFactory para obter o tipo de objeto que ele precisa.
   
  
-  <img src="https://github.com/gleidesigner/Design_Patterns/blob/master/src/strategy/exemplo3/diagram3.png" alt="Factory Pattern UML Diagram"/>
+  <img src="https://github.com/gleidesigner/Design_Patterns/blob/master/src/factory/exemplo1/diagramFactory1.png" alt="Factory Pattern UML Diagram"/>
   
   
 # Webgrafia
