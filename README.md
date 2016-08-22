@@ -1,4 +1,4 @@
-# Curso de Padrões de Projeto (Design_Patterns) - Overview
+Padrões de Projeto [Design_Patterns] - Overview
 
 # Design_Patterns
 - Representam as melhores práticas utilizadas por desenvolvedores experientes de software orientado a objetos.
