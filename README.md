@@ -1,13 +1,14 @@
-Curso de Padrões de Projeto
+# Curso de Padrões de Projeto (Design_Patterns) - Overview
+
 # Design_Patterns
-Design patterns represent the best practices used by experienced object-oriented software developers
+- Representam as melhores práticas utilizadas por desenvolvedores experientes de software orientado a objetos.
+- São soluções para os problemas gerais que desenvolvedores de software enfrentados durante o desenvolvimento do software.
 
-#Overview
-What is Gang of Four (GOF)?
-Are the names of the four authors Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides published
-a book titled Design Patterns - Elements of Reusable Object-Oriented Software
-which initiated the concept of Design Pattern in Software development.
+# O que é Gang of Four (GOF)?
+- São os nomes dos quatro autores Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides publicados
+um livro intitulado Padrões de Projeto - Elementos de Software Reutilizável Orientado a Objetos
+que iniciou o conceito de Design Pattern no desenvolvimento de software.
 
-#Are primarily based on the following principles of object orientated design.
-- Program to an interface not an implementation
-- Favor object composition over inheritance
+# Baseiam-se principalmente nos seguintes princípios de design orientado a objeto.
+- Programa de uma interface não uma implementação
+- Favorecer a composição de objetos sobre a herança
