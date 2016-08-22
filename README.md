@@ -14,7 +14,7 @@ Padrões de Projeto (Design_Patterns) - Overview
   - Favorecer a composição de objetos sobre a herança
 
 # Design Patterns tem dois usos principais no desenvolvimento de software:
-  Plataforma comum para desenvolvedores: 
-  padrões de projeto fornecem uma terminologia padrão e são específicos para determinado cenário.
-  Por exemplo, um padrão de design singleton significa uso de único objeto para que todos os desenvolvedores familiarizados com o padrão
-  de design único fará uso único objeto e eles podem dizer um ao outro que o programa está a seguir um padrão Singleton.
+  - Plataforma comum para desenvolvedores:
+    padrões de projeto fornecem uma terminologia padrão e são específicos para determinado cenário.
+    Por exemplo, um padrão de design singleton significa uso de único objeto para que todos os desenvolvedores familiarizados com o padrão
+    de design único fará uso único objeto e eles podem dizer um ao outro que o programa está a seguir um padrão Singleton.
