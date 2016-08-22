@@ -24,9 +24,9 @@ Design_Patterns (Padrões de Projeto) - Overview
 # Tipos de Desing Patterns
   De acordo com o livros de referência Design Patterns - Elementos de Software Reutilizável Orientado a Objetos,
   existem 23 padrões de design que podem ser classificados em três categorias:
-  1. Creational;
-  2. padrões estruturais;
-  3. comportamentais;
+  1. Creacionais;
+  2. Estruturais;
+  3. Comportamentais;
   
   - Também discutiremos outra categoria de padrão de projeto: padrões de projeto J2EE.
   
@@ -38,6 +38,23 @@ Design_Patterns (Padrões de Projeto) - Overview
   compor as interfaces e definir formas de compor objetos para obter novas funcionalidades.
   3. Padrões de Comportamento: Estes padrões de design são especificamente preocupados com a comunicação entre objetos.
   4. Padrẽs J2EE: Estes padrões de design são especificamente preocupado com a camada de apresentação. Esses padrões são identificados pela Sun Java Center.
+  
+# Design Pattern - Factory
+  padrão de fábrica é um dos mais padrão de design utilizado em Java. 
+  Este tipo de padrão de projeto vem sob padrão criacional como este padrão oferece uma das melhores maneiras de criar um objeto.
+  
+  No padrão de fábrica, criamos objeto sem expor a lógica de criação para o cliente e referem-se objeto recém-criado usando uma interface comum.
+  
+# Implementação
+  Nós vamos criar uma interface Forma e classes concretas de execução da interface de Shape.
+  A ShapeFactory classe de fábrica é definido como um próximo passo.
+  
+  FactoryPatternDemo, a nossa classe de demonstração irá utilizar ShapeFactory para obter um objeto Shape.
+  Ele vai passar informações (CIRCLE / RECTANGLE / QUADRADO) para ShapeFactory para obter o tipo de objeto que ele precisa.
+  
+ 
+  <img src="https://github.com/gleidesigner/Design_Patterns/blob/master/src/strategy/exemplo3/diagram3.png" alt="Factory Pattern UML Diagram"/>
+  
   
 # Webgrafia
   http://www.tutorialspoint.com/design_pattern/index.htm
