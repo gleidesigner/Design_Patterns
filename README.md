@@ -28,8 +28,7 @@ Design_Patterns (Padrões de Projeto) - Overview
   1. Creacionais;
   2. Estruturais;
   3. Comportamentais;
-  
-  Também discutiremos outra categoria de padrão de projeto: padrões de projeto J2EE.
+  4. Projeto J2EE.
   
 # Padrão e Descrição
   1. Padrões de Criação: Estes padrões de projeto fornecem uma maneira de criar objetos enquanto esconde a lógica de criação,
