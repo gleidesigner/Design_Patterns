@@ -30,8 +30,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.5530474">
-                <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+              <first_editor vertical-scroll-proportion="0.08126411">
+                <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -39,16 +39,6 @@
           </provider>
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DesignPatterns.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -580,12 +570,12 @@
       <workItem from="1471630740436" duration="36000" />
       <workItem from="1471630790913" duration="6953000" />
       <workItem from="1471875542804" duration="13475000" />
-      <workItem from="1471960721125" duration="2069000" />
+      <workItem from="1471960721125" duration="2199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41718000" />
+    <option name="totallyTimeSpent" value="41848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="80" width="1845" height="998" extended-state="0" />
@@ -1170,8 +1160,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.5530474">
-            <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+          <first_editor vertical-scroll-proportion="0.08126411">
+            <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
             <folding />
           </first_editor>
           <second_editor />

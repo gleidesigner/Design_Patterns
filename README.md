@@ -1,6 +1,4 @@
-Design_Patterns (Padrões de Projeto) - Overview
- 
-# Design_Patterns
+# Design Patterns (Padrões de Projeto) - Overview
   Representam as melhores práticas utilizadas por desenvolvedores experientes de software orientado a objetos.
   São soluções para os problemas gerais que desenvolvedores de software enfrentados durante o desenvolvimento do software.
 
@@ -23,7 +21,7 @@ Design_Patterns (Padrões de Projeto) - Overview
 
 # Tipos de Desing Patterns
   De acordo com o livros de referência Design Patterns - Elementos de Software Reutilizável Orientado a Objetos,
-  existem 23 design patterns que podem ser classificados em três categorias: **Creacionais, Estruturais, Comportamentais**
+  existem 23 design patterns que podem ser classificados em três categorias: **Creacionais, Estruturais, Comportamentais**. 
   Também discutiremos outra categoria de padrão de projeto: **Padrões de Projeto J2EE**.
 
   
