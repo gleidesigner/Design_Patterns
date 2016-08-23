@@ -37,20 +37,21 @@
   
   4. Padrẽs J2EE: Estes padrões de design são especificamente preocupado com a camada de apresentação. Esses padrões são identificados pela Sun Java Center.
   
-# Design Pattern - Factory
-  Factory é um dos mais padrão de design utilizado em Java que permite as classes delegar para as subclasses o que deciderem.
+# 1. Padrões de Criação
+## 1.1 Design Pattern - Factory
+  Factory é um dos design pattern mais utilizado em Java que permite as classes delegar para as subclasses o que deciderem.
   Este tipo de padrão de projeto vem sob padrão criacional como este padrão oferece uma das melhores maneiras de criar um objeto.
   
   No padrão de fábrica, criamos objeto sem expor a lógica de criação para o cliente e referem-se objeto recém-criado usando uma interface comum.
   
-# Implementação
+### Implementação
   Nós vamos criar uma interface Forma(Shape) e classes concretas de execução da interface de Shape.
   A ShapeFactory classe de fábrica é definido como um próximo passo.
   
   FactoryPatternDemo, a nossa classe de demonstração irá utilizar ShapeFactory para obter um objeto Shape.
   Ele vai passar informações (CIRCLE / RECTANGLE / QUADRADO) para ShapeFactory para obter o tipo de objeto que ele precisa.
   
-# Diagrama Exemplo 1:
+### Diagrama Exemplo 1:
 
   <img src="https://github.com/gleidesigner/Design_Patterns/blob/master/src/factory/exemplo1/diagramFactory1.png" alt="Factory Pattern UML Diagram"/>
   
