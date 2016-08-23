@@ -54,7 +54,7 @@
 ### Diagrama Exemplo 1:
 
   <img src="https://github.com/gleidesigner/Design_Patterns/blob/master/src/factory/exemplo1/diagramFactory1.png" alt="Factory Pattern UML Diagram"/>
-  
+  ![Factory Pattern UML Diagram](https://github.com/gleidesigner/Design_Patterns/blob/master/src/factory/exemplo1/diagramFactory1.png) 
   
 # Webgrafia
   http://www.tutorialspoint.com/design_pattern/index.htm
