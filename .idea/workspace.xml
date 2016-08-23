@@ -28,16 +28,16 @@
     <leaf>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.69074494">
-                <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+              <first_editor vertical-scroll-proportion="0.5530474">
+                <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
                 <folding />
               </first_editor>
               <second_editor />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
           </provider>
         </entry>
@@ -580,12 +580,12 @@
       <workItem from="1471630740436" duration="36000" />
       <workItem from="1471630790913" duration="6953000" />
       <workItem from="1471875542804" duration="13475000" />
-      <workItem from="1471960721125" duration="1323000" />
+      <workItem from="1471960721125" duration="2069000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40972000" />
+    <option name="totallyTimeSpent" value="41718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="80" width="1845" height="998" extended-state="0" />
@@ -1168,10 +1168,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.69074494">
-            <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <first_editor vertical-scroll-proportion="0.5530474">
+            <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1183,7 +1183,7 @@
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
     </entry>
