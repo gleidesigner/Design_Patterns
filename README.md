@@ -45,13 +45,13 @@
   No padrão de fábrica, criamos objeto sem expor a lógica de criação para o cliente e referem-se objeto recém-criado usando uma interface comum.
   
 ### Implementação
-  Vamos usar a UML (Linguagem de Modelagem Unificada) para representar o diagram de class, criando uma interface Forma(Shape) e classes concretas que irão implementar essa interface.
-  A ShapeFactory classe de fábrica é definido como um próximo passo.
+  Vamos usar a UML (Linguagem de Modelagem Unificada) para representar o nosso diagram de class.
+### Exemplo 1:
+  Em nosso diagrama temos uma interface Forma(Shape) e classes concretas que irão implementar essa interface.
+  MainFactory é a classe de demonstração irá utilizar FabricaDesenho para obter um objeto Forma.
+  Essa interface passar informações (CIRCULO / RETANGULO / QUADRADO) para FabricaDesenho para obter o tipo de objeto que ele precisa.
   
-  FactoryPatternDemo, a nossa classe de demonstração irá utilizar ShapeFactory para obter um objeto Shape.
-  Ele vai passar informações (CIRCLE / RECTANGLE / QUADRADO) para ShapeFactory para obter o tipo de objeto que ele precisa.
-  
-### Diagrama Exemplo 1:
+### Diagrama 1:
 
   ![diagramFactory1](https://github.com/gleidesigner/Design_Patterns/blob/master/src/factory/exemplo1/diagramFactory1.png) 
   

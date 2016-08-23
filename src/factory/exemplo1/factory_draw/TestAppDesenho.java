@@ -1,11 +1,11 @@
-package factory.exemplo1.factory;
+package factory.exemplo1.factory_draw;
 
 import factory.exemplo1.shape.Forma;
 
 /**
  * Created by gleidesilva on 22/08/16.
  */
-public class MainFactory {
+public class TestAppDesenho {
 
     public static void main(String [] args){
         //Cria um fábrica de desenho

@@ -1,4 +1,4 @@
-package factory.exemplo1.factory;
+package factory.exemplo1.factory_draw;
 
 import factory.exemplo1.shape.Circulo;
 import factory.exemplo1.shape.Forma;
