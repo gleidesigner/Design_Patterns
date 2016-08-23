@@ -26,26 +26,26 @@
 
   
 # Padrão e Descrição
-  1. Padrões de Criação: Estes padrões de projeto fornecem uma maneira de criar objetos enquanto esconde a lógica de criação,
+  1. **Padrões de Criação:** Estes padrões de projeto fornecem uma maneira de criar objetos enquanto esconde a lógica de criação,
   em vez de instanciar objetos diretamente usando nova opreator. Isto dá programa mais flexibilidade para decidir quais objetos
   precisam ser criados para um determinado caso de uso.
   
-  2. Padrões Estruturais: Estes padrões de projeto preocupação de classe e composição de objetos. Conceito de herança é usado para
+  2. **Padrões Estruturais:** Estes padrões de projeto preocupação de classe e composição de objetos. Conceito de herança é usado para
   compor as interfaces e definir formas de compor objetos para obter novas funcionalidades.
   
-  3. Padrões de Comportamento: Estes padrões de design são especificamente preocupados com a comunicação entre objetos.
+  3. **Padrões de Comportamento:** Estes padrões de design são especificamente preocupados com a comunicação entre objetos.
   
-  4. Padrẽs J2EE: Estes padrões de design são especificamente preocupado com a camada de apresentação. Esses padrões são identificados pela Sun Java Center.
+  4. **Padrẽs J2EE:** Estes padrões de design são especificamente preocupado com a camada de apresentação. Esses padrões são identificados pela Sun Java Center.
   
 # 1. Padrões de Criação
-## 1.1 Design Pattern - Factory
+## 1.1 - Design Pattern - Factory
   Factory é um dos design pattern mais utilizado em Java que permite as classes delegar para as subclasses o que deciderem.
   Este tipo de padrão de projeto vem sob padrão criacional como este padrão oferece uma das melhores maneiras de criar um objeto.
   
   No padrão de fábrica, criamos objeto sem expor a lógica de criação para o cliente e referem-se objeto recém-criado usando uma interface comum.
   
 ### Implementação
-  Nós vamos criar uma interface Forma(Shape) e classes concretas de execução da interface de Shape.
+  Vamos usar a UML (Linguagem de Modelagem Unificada) para representar o diagram de class, criando uma interface Forma(Shape) e classes concretas que irão implementar essa interface.
   A ShapeFactory classe de fábrica é definido como um próximo passo.
   
   FactoryPatternDemo, a nossa classe de demonstração irá utilizar ShapeFactory para obter um objeto Shape.
