@@ -52,9 +52,11 @@ Design_Patterns (Padrões de Projeto) - Overview
   FactoryPatternDemo, a nossa classe de demonstração irá utilizar ShapeFactory para obter um objeto Shape.
   Ele vai passar informações (CIRCLE / RECTANGLE / QUADRADO) para ShapeFactory para obter o tipo de objeto que ele precisa.
   
- # Diagrama Exemplo 1:
+# Diagrama Exemplo 1:
+
   <img src="https://github.com/gleidesigner/Design_Patterns/blob/master/src/factory/exemplo1/diagramFactory1.png" alt="Factory Pattern UML Diagram"/>
   
   
 # Webgrafia
   http://www.tutorialspoint.com/design_pattern/index.htm
+  https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software
