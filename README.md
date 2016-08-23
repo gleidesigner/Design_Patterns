@@ -24,11 +24,12 @@ Design_Patterns (Padrões de Projeto) - Overview
 # Tipos de Desing Patterns
   De acordo com o livros de referência Design Patterns - Elementos de Software Reutilizável Orientado a Objetos,
   existem 23 padrões de design que podem ser classificados em três categorias:
+  
   1. Creacionais;
   2. Estruturais;
   3. Comportamentais;
   
-  - Também discutiremos outra categoria de padrão de projeto: padrões de projeto J2EE.
+  Também discutiremos outra categoria de padrão de projeto: padrões de projeto J2EE.
   
 # Padrão e Descrição
   1. Padrões de Criação: Estes padrões de projeto fornecem uma maneira de criar objetos enquanto esconde a lógica de criação,
