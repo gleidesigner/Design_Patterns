@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="519.4131944444446" y="408.0">creational_patterns.factory.abstract_factory.TestCarroFactory</node>
+    <node x="725.0000000000001" y="137.5">creational_patterns.factory.abstract_factory.som.CDPlayer</node>
+    <node x="544.0" y="137.5">creational_patterns.factory.abstract_factory.roda.RodaLigaLeve</node>
+    <node x="749.5868055555557" y="0.0">creational_patterns.factory.abstract_factory.som.Som</node>
+    <node x="549.6180555555557" y="0.0">creational_patterns.factory.abstract_factory.roda.Roda</node>
+    <node x="0.0" y="137.5">creational_patterns.factory.abstract_factory.roda.RodaSimples</node>
+    <node x="875.0000000000001" y="101.0">creational_patterns.factory.abstract_factory.Carro</node>
+    <node x="325.00000000000006" y="125.5">creational_patterns.factory.abstract_factory.monta_carro.MontaCarroFactory</node>
+    <node x="173.00000000000006" y="137.5">creational_patterns.factory.abstract_factory.som.TocaFitas</node>
+    <node x="532.7013888888889" y="279.0">creational_patterns.factory.abstract_factory.monta_carro.MontaCarroLuxo</node>
+    <node x="132.3263888888889" y="279.0">creational_patterns.factory.abstract_factory.monta_carro.MontaCarroPopular</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="creational_patterns.factory.abstract_factory.monta_carro.MontaCarroPopular" target="creational_patterns.factory.abstract_factory.monta_carro.MontaCarroFactory">
+      <point x="66.33333333333331" y="-39.5" />
+      <point x="298.15972222222223" y="254.0" />
+      <point x="374.75000000000006" y="254.0" />
+      <point x="-49.75" y="39.5" />
+    </edge>
+    <edge source="creational_patterns.factory.abstract_factory.roda.RodaLigaLeve" target="creational_patterns.factory.abstract_factory.roda.Roda">
+      <point x="0.0" y="-27.5" />
+      <point x="624.5" y="71.0" />
+      <point x="582.6180555555557" y="71.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="creational_patterns.factory.abstract_factory.roda.RodaSimples" target="creational_patterns.factory.abstract_factory.roda.Roda">
+      <point x="0.0" y="-27.5" />
+      <point x="76.5" y="71.0" />
+      <point x="560.6180555555557" y="71.0" />
+      <point x="-22.0" y="15.5" />
+    </edge>
+    <edge source="creational_patterns.factory.abstract_factory.som.CDPlayer" target="creational_patterns.factory.abstract_factory.som.Som">
+      <point x="0.0" y="-27.5" />
+      <point x="790.0000000000001" y="81.0" />
+      <point x="780.5868055555557" y="81.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="creational_patterns.factory.abstract_factory.Carro" target="creational_patterns.factory.abstract_factory.roda.Roda">
+      <point x="-45.5" y="-64.0" />
+      <point x="920.5000000000001" y="61.0" />
+      <point x="604.6180555555557" y="61.0" />
+      <point x="22.0" y="15.5" />
+    </edge>
+    <edge source="creational_patterns.factory.abstract_factory.TestCarroFactory" target="creational_patterns.factory.abstract_factory.monta_carro.MontaCarroPopular">
+      <point x="-83.33333333333326" y="-39.5" />
+      <point x="561.0798611111113" y="383.0" />
+      <point x="231.8263888888889" y="383.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="creational_patterns.factory.abstract_factory.monta_carro.MontaCarroLuxo" target="creational_patterns.factory.abstract_factory.monta_carro.MontaCarroFactory">
+      <point x="-66.33333333333326" y="-39.5" />
+      <point x="565.8680555555557" y="254.0" />
+      <point x="474.25000000000006" y="254.0" />
+      <point x="49.75" y="39.5" />
+    </edge>
+    <edge source="creational_patterns.factory.abstract_factory.monta_carro.MontaCarroLuxo" target="creational_patterns.factory.abstract_factory.som.CDPlayer">
+      <point x="66.33333333333337" y="-39.5" />
+      <point x="698.5347222222223" y="254.0" />
+      <point x="790.0000000000001" y="254.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="creational_patterns.factory.abstract_factory.monta_carro.MontaCarroPopular" target="creational_patterns.factory.abstract_factory.roda.RodaSimples">
+      <point x="-66.33333333333331" y="-39.5" />
+      <point x="165.4930555555556" y="254.0" />
+      <point x="76.5" y="254.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="creational_patterns.factory.abstract_factory.TestCarroFactory" target="creational_patterns.factory.abstract_factory.monta_carro.MontaCarroLuxo">
+      <point x="0.0" y="-39.5" />
+      <point x="644.4131944444446" y="383.0" />
+      <point x="632.2013888888889" y="383.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="creational_patterns.factory.abstract_factory.Carro" target="creational_patterns.factory.abstract_factory.som.Som">
+      <point x="45.5" y="-64.0" />
+      <point x="1011.5000000000001" y="51.0" />
+      <point x="801.2534722222223" y="51.0" />
+      <point x="20.66666666666663" y="15.5" />
+    </edge>
+    <edge source="creational_patterns.factory.abstract_factory.TestCarroFactory" target="creational_patterns.factory.abstract_factory.Carro">
+      <point x="83.33333333333337" y="-39.5" />
+      <point x="727.7465277777778" y="383.0" />
+      <point x="966.0000000000001" y="383.0" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="creational_patterns.factory.abstract_factory.som.TocaFitas" target="creational_patterns.factory.abstract_factory.som.Som">
+      <point x="0.0" y="-27.5" />
+      <point x="239.00000000000006" y="81.0" />
+      <point x="759.920138888889" y="81.0" />
+      <point x="-20.66666666666663" y="15.5" />
+    </edge>
+    <edge source="creational_patterns.factory.abstract_factory.monta_carro.MontaCarroPopular" target="creational_patterns.factory.abstract_factory.som.TocaFitas">
+      <point x="0.0" y="-39.5" />
+      <point x="231.8263888888889" y="254.0" />
+      <point x="239.00000000000006" y="254.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="creational_patterns.factory.abstract_factory.monta_carro.MontaCarroLuxo" target="creational_patterns.factory.abstract_factory.roda.RodaLigaLeve">
+      <point x="0.0" y="-39.5" />
+      <point x="632.2013888888889" y="254.0" />
+      <point x="624.5" y="254.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="528.5" y="243.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
