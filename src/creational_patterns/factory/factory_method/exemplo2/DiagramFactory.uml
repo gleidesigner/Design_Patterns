@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="177.0" y="129.0">creational_patterns.factory.factory_method.exemplo2.pessoa.Homem</node>
+    <node x="0.0" y="129.0">creational_patterns.factory.factory_method.exemplo2.pessoa.Mulher</node>
+    <node x="29.75" y="234.0">creational_patterns.factory.factory_method.exemplo2.factory_pessoa.FabricaPessoa</node>
+    <node x="79.25" y="339.0">creational_patterns.factory.factory_method.exemplo2.factory_pessoa.TestAppPessoa</node>
+    <node x="89.75" y="0.0">creational_patterns.factory.factory_method.exemplo2.pessoa.Pessoa</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="creational_patterns.factory.factory_method.exemplo2.factory_pessoa.TestAppPessoa" target="creational_patterns.factory.factory_method.exemplo2.factory_pessoa.FabricaPessoa">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="creational_patterns.factory.factory_method.exemplo2.factory_pessoa.FabricaPessoa" target="creational_patterns.factory.factory_method.exemplo2.pessoa.Homem">
+      <point x="69.25" y="-27.5" />
+      <point x="237.5" y="209.0" />
+      <point x="258.0" y="209.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="creational_patterns.factory.factory_method.exemplo2.pessoa.Mulher" target="creational_patterns.factory.factory_method.exemplo2.pessoa.Pessoa">
+      <point x="0.0" y="-27.5" />
+      <point x="78.5" y="104.0" />
+      <point x="129.0" y="104.0" />
+      <point x="-39.25" y="39.5" />
+    </edge>
+    <edge source="creational_patterns.factory.factory_method.exemplo2.factory_pessoa.FabricaPessoa" target="creational_patterns.factory.factory_method.exemplo2.pessoa.Mulher">
+      <point x="-69.25" y="-27.5" />
+      <point x="99.0" y="209.0" />
+      <point x="78.5" y="209.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="creational_patterns.factory.factory_method.exemplo2.pessoa.Homem" target="creational_patterns.factory.factory_method.exemplo2.pessoa.Pessoa">
+      <point x="0.0" y="-27.5" />
+      <point x="258.0" y="104.0" />
+      <point x="207.5" y="104.0" />
+      <point x="39.25" y="39.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="94.5" y="137.0" />
+  <SelectedNodes>
+    <node>creational_patterns.factory.factory_method.exemplo2.factory_pessoa.TestAppPessoa</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

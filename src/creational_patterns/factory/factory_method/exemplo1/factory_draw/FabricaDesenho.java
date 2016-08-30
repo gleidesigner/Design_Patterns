@@ -1,9 +1,6 @@
-package factory.exemplo1.factory_draw;
+package creational_patterns.factory.factory_method.exemplo1.factory_draw;
 
-import factory.exemplo1.shape.Circulo;
-import factory.exemplo1.shape.Forma;
-import factory.exemplo1.shape.Quadrado;
-import factory.exemplo1.shape.Retangulo;
+import creational_patterns.factory.factory_method.exemplo1.shape.*;
 
 /**
  * Created by gleidesilva on 22/08/16.

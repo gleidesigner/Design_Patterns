@@ -1,7 +1,7 @@
 package creational_patterns.factory.factory_method.exemplo2.pessoa;
 
 /**
- * Created by gleidesilva on 23/08/16.
+ * Created by gleides vinente silva on 23/08/16.
  */
 public class Homem extends Pessoa {
 

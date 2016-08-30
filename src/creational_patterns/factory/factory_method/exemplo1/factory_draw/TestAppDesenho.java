@@ -1,6 +1,6 @@
-package factory.exemplo1.factory_draw;
+package creational_patterns.factory.factory_method.exemplo1.factory_draw;
 
-import factory.exemplo1.shape.Forma;
+import creational_patterns.factory.factory_method.exemplo1.shape.Forma;
 
 /**
  * Created by gleidesilva on 22/08/16.

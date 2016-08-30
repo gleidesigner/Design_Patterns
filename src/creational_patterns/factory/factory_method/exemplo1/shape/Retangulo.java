@@ -1,4 +1,4 @@
-package factory.exemplo1.shape;
+package creational_patterns.factory.factory_method.exemplo1.shape;
 
 /**
  * Created by gleidesilva on 22/08/16.
