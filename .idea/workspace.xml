@@ -2,27 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="593f7907-4900-46da-bda4-41ab2efbd5b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/DiagramFactory.uml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/abstract_factory/Carro.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/abstract_factory/TestCarroFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/abstract_factory/monta_carro/MontaCarroFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/abstract_factory/monta_carro/MontaCarroLuxo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/abstract_factory/monta_carro/MontaCarroPopular.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/abstract_factory/roda/Roda.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/abstract_factory/roda/RodaLigaLeve.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/abstract_factory/roda/RodaSimples.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/abstract_factory/som/CDPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/abstract_factory/som/Som.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/abstract_factory/som/TocaFitas.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/creational_patterns/factory/DiagramFactory.uml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/emissor/Emissor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_emissor/EmissorAssincrono.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/emissor/EmissorEmail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/emissor/EmissorJMS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/emissor/EmissorSMS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_emissor/EmissorSincrono.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_emissor/FabricaEmissor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_emissor/TestAppEmissor.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/DiagramFactory.uml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_pessoa/FabricaPessoa.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_pessoa/TestAppPessoa.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/pessoa/Homem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/pessoa/Mulher.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/pessoa/Pessoa.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/DiagramFactory1.uml" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/FactoryMethodDiagram1.uml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/diagramFactory1.png" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/FactoryMethodDiagram1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/factory_draw/FabricaDesenho.java" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/factory_draw/FabricaDesenho.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/factory_draw/TestAppDesenho.java" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/factory_draw/TestAppDesenho.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/shape/Circulo.java" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/shape/Circulo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/shape/Forma.java" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/shape/Forma.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/shape/Quadrado.java" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/shape/Quadrado.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/shape/Retangulo.java" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/shape/Retangulo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/pessoa/Homem.java" afterPath="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/pessoa/Homem.java" />
     </list>
     <ignored path="DesignPatterns.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,7 +40,103 @@
     <favorites_list name="DesignPatterns" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="FactoryMethodDiagram2.uml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/FactoryMethodDiagram2.uml">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="311.0" y="178.0">creational_patterns.factory.factory_method.exemplo2.factory_emissor.EmissorAssincrono</node>
+                <node x="0.0" y="508.0">creational_patterns.factory.factory_method.exemplo2.factory_emissor.TestAppEmissor</node>
+                <node x="189.0" y="383.0">creational_patterns.factory.factory_method.exemplo2.emissor.EmissorEmail</node>
+                <node x="219.5" y="0.0">creational_patterns.factory.factory_method.exemplo2.factory_emissor.FabricaEmissor</node>
+                <node x="0.0" y="383.0">creational_patterns.factory.factory_method.exemplo2.emissor.EmissorJMS</node>
+                <node x="0.0" y="178.0">creational_patterns.factory.factory_method.exemplo2.factory_emissor.EmissorSincrono</node>
+                <node x="192.0" y="278.0">creational_patterns.factory.factory_method.exemplo2.emissor.Emissor</node>
+                <node x="386.0" y="383.0">creational_patterns.factory.factory_method.exemplo2.emissor.EmissorSMS</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="creational_patterns.factory.factory_method.exemplo2.factory_emissor.EmissorAssincrono" target="creational_patterns.factory.factory_method.exemplo2.factory_emissor.FabricaEmissor">
+                  <point x="0.0" y="-27.5" />
+                  <point x="456.5" y="153.0" />
+                  <point x="341.75" y="153.0" />
+                  <point x="40.75" y="64.0" />
+                </edge>
+                <edge source="creational_patterns.factory.factory_method.exemplo2.emissor.EmissorEmail" target="creational_patterns.factory.factory_method.exemplo2.emissor.Emissor">
+                  <point x="0.0" y="-40.0" />
+                  <point x="0.0" y="27.5" />
+                </edge>
+                <edge source="creational_patterns.factory.factory_method.exemplo2.emissor.EmissorJMS" target="creational_patterns.factory.factory_method.exemplo2.emissor.Emissor">
+                  <point x="0.0" y="-40.0" />
+                  <point x="84.5" y="358.0" />
+                  <point x="220.5" y="358.0" />
+                  <point x="-57.0" y="27.5" />
+                </edge>
+                <edge source="creational_patterns.factory.factory_method.exemplo2.factory_emissor.EmissorSincrono" target="creational_patterns.factory.factory_method.exemplo2.factory_emissor.FabricaEmissor">
+                  <point x="0.0" y="-27.5" />
+                  <point x="145.5" y="153.0" />
+                  <point x="260.25" y="153.0" />
+                  <point x="-40.75" y="64.0" />
+                </edge>
+                <edge source="creational_patterns.factory.factory_method.exemplo2.emissor.EmissorSMS" target="creational_patterns.factory.factory_method.exemplo2.emissor.Emissor">
+                  <point x="0.0" y="-40.0" />
+                  <point x="470.5" y="358.0" />
+                  <point x="334.5" y="358.0" />
+                  <point x="57.0" y="27.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-154.5" y="83.5" />
+              <SelectedNodes>
+                <node>creational_patterns.factory.factory_method.exemplo2.factory_emissor.EmissorAssincrono</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmissorAssincrono.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_emissor/EmissorAssincrono.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.23920266">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmissorSincrono.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_emissor/EmissorSincrono.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmissorEmail.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/emissor/EmissorEmail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="66" />
+              <folding>
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,32 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/factory/exemplo1/factory_pattern/FabricaDesenhos.java" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo1/shape/Forma.java" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo1/shape/Circulo.java" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo1/shape/Retangulo.java" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo1/shape/Quadrado.java" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo1/factory_pattern/MainFactory.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo2/document/Documento.java" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo2/factory_document/MinhaAplicacao.java" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo2/document/MeuDocumento.java" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo2/factory_document/Aplicacao.java" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo2/factory_document/Pessoa.java" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo2/factory_pessoa/MinhaPessoa.java" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo2/factory_pessoa/Homem.java" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo2/factory_pessoa/Mulher.java" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo2/factory_pessoa/FabricaPessoa.java" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo1/factory_draw/TestApp.java" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo1/factory_draw/TestAppDesenho.java" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo2/pessoa/Mulher.java" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo2/pessoa/Homem.java" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo2/pessoa/Pessoa.java" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo2/factory_pessoa/TestAppPessoa.java" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo3/labirinto/ElementoDeLabirinto.java" />
-        <option value="$PROJECT_DIR$/src/factory/exemplo3/labirinto/Sala.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/pessoa/Homem.java" />
         <option value="$PROJECT_DIR$/src/creational_patterns/factory/abstract_factory/CarroPopular.java" />
         <option value="/usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java" />
         <option value="/usr/lib/jvm/java-8-oracle/src.zip!/java/lang/ClassLoader.java" />
@@ -121,6 +187,32 @@
         <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/factory_draw/TestAppDesenho.java" />
         <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/factory_draw/FabricaDesenho.java" />
         <option value="$PROJECT_DIR$/src/creational_patterns/factory/abstract_factory/TestCarroFactory.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/document/Pessoa.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/pessoa/Pessoa.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_document/TestAppPessoa.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_document/TestAppDoc.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/pessoa/Document.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_document/FabricaPessoa.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_documento/FabricaPessoa.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/documento/Documento.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/documento/DocPDF.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/documento/DocWord.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/documento/DocExcel.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/documento/Excel.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_documento/InstanciaDocumento.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/emissor/Emissor.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/emissor/EmissorJMS.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_documento/FabricaDocumento.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/emissor/EmissorEmail.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/emissor/EmissorSMS.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_documento/FabricaEmissor.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_documento/TestAppDoc.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_documento/TestAppEmissor.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_emissor/TestAppEmissor.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_emissor/FabricaEmissorAssincrono.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_emissor/EmissorAssicronoSMS.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_emissor/EmissorSincrono.java" />
+        <option value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_emissor/EmissorAssincrono.java" />
       </list>
     </option>
   </component>
@@ -128,6 +220,9 @@
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
@@ -175,11 +270,11 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -212,7 +307,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="creational_patterns" />
+              <option name="myItemId" value="factory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory_method" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exemplo2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -230,7 +333,149 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="creational_patterns" />
+              <option name="myItemId" value="factory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory_method" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exemplo2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory_emissor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Design_Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory_method" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exemplo2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emissor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Design_Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory_method" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exemplo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Design_Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory_method" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exemplo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shape" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Design_Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory_method" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exemplo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory_draw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Design_Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -258,14 +503,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/creational_patterns/factory/abstract_factory" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Project" />
@@ -275,9 +518,12 @@
     <property name="dynamic.classpath" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="creational_patterns.factory.factory_method.exemplo2.factory_emissor" />
       <recent name="creational_patterns.factory.abstract_factory" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -286,27 +532,7 @@
       <recent name="$PROJECT_DIR$/src/factory/exemplo1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCarroFactory">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="strategy.exemplo1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="strategy.exemplo1.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DesignPatterns" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.TestAppDesenho (1)">
     <configuration default="false" name="StrategyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -387,6 +613,26 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="TestAppDesenho (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="creational_patterns.factory.factory_method.exemplo1.factory_draw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="creational_patterns.factory.factory_method.exemplo1.factory_draw.TestAppDesenho" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DesignPatterns" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -411,15 +657,6 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
-      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
-      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
-      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -441,15 +678,6 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
-      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
-      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
-      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -472,75 +700,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -658,65 +817,12 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DesignPatterns" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -761,32 +867,17 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -798,24 +889,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
       <method />
     </configuration>
@@ -823,19 +896,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StrategyPattern" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestAppDesenho" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestAppPessoa" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestCarroFactory" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StrategyPattern" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestAppDesenho" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestAppPessoa" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestCarroFactory" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestAppDesenho (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestCarroFactory" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestAppPessoa" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestAppDesenho" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StrategyPattern" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestAppDesenho (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestCarroFactory" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestAppPessoa" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestAppDesenho" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StrategyPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -860,11 +933,13 @@
       <workItem from="1472329985308" duration="1956000" />
       <workItem from="1472344887561" duration="11082000" />
       <workItem from="1472394815487" duration="5678000" />
+      <workItem from="1472581515347" duration="24000" />
+      <workItem from="1472581557725" duration="9082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81910000" />
+    <option name="totallyTimeSpent" value="91016000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -877,58 +952,58 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42381975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19742489" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39592275" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1973466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="831" y="114" width="322" height="932" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.249309" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.249309" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42336547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19721329" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3954984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23106688" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="831" y="114" width="322" height="932" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279743" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249309" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39914164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249309" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2546973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36012527" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1249309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20674406" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979124" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2546973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36012527" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1249309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20674406" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979124" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -956,27 +1031,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/strategy/exemplo1/pato/PatoComum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/strategy/exemplo1/pato/PatoDeBorracha.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/strategy/exemplo1/pato/PatoDeMadeira.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/behavioral_patterns/strategy/exemplo1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.61764705">
@@ -1077,13 +1131,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33962265">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1231,51 +1278,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/pessoa/Homem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36241612">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1466" column="0" selection-start-line="1466" selection-start-column="0" selection-end-line="1466" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="356" column="0" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33207548">
-          <caret line="1951" column="0" selection-start-line="1951" selection-start-column="0" selection-end-line="1951" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/abstract_factory/roda/RodaSimples.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1283,7 +1289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1291,7 +1296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09977827">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1299,20 +1303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15964523">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/factory_draw/TestAppDesenho.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27937916">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/shape/Forma.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09977827">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1330,97 +1320,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/factory_draw/FabricaDesenho.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26865673">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/DiagramFactory.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="177.0" y="129.0">creational_patterns.factory.factory_method.exemplo2.pessoa.Homem</node>
-            <node x="0.0" y="129.0">creational_patterns.factory.factory_method.exemplo2.pessoa.Mulher</node>
-            <node x="29.75" y="234.0">creational_patterns.factory.factory_method.exemplo2.factory_pessoa.FabricaPessoa</node>
-            <node x="79.25" y="339.0">creational_patterns.factory.factory_method.exemplo2.factory_pessoa.TestAppPessoa</node>
-            <node x="89.75" y="0.0">creational_patterns.factory.factory_method.exemplo2.pessoa.Pessoa</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="creational_patterns.factory.factory_method.exemplo2.factory_pessoa.TestAppPessoa" target="creational_patterns.factory.factory_method.exemplo2.factory_pessoa.FabricaPessoa">
-              <point x="0.0" y="-27.5" />
-              <point x="0.0" y="27.5" />
-            </edge>
-            <edge source="creational_patterns.factory.factory_method.exemplo2.factory_pessoa.FabricaPessoa" target="creational_patterns.factory.factory_method.exemplo2.pessoa.Homem">
-              <point x="69.25" y="-27.5" />
-              <point x="237.5" y="209.0" />
-              <point x="258.0" y="209.0" />
-              <point x="0.0" y="27.5" />
-            </edge>
-            <edge source="creational_patterns.factory.factory_method.exemplo2.pessoa.Mulher" target="creational_patterns.factory.factory_method.exemplo2.pessoa.Pessoa">
-              <point x="0.0" y="-27.5" />
-              <point x="78.5" y="104.0" />
-              <point x="129.0" y="104.0" />
-              <point x="-39.25" y="39.5" />
-            </edge>
-            <edge source="creational_patterns.factory.factory_method.exemplo2.factory_pessoa.FabricaPessoa" target="creational_patterns.factory.factory_method.exemplo2.pessoa.Mulher">
-              <point x="-69.25" y="-27.5" />
-              <point x="99.0" y="209.0" />
-              <point x="78.5" y="209.0" />
-              <point x="0.0" y="27.5" />
-            </edge>
-            <edge source="creational_patterns.factory.factory_method.exemplo2.pessoa.Homem" target="creational_patterns.factory.factory_method.exemplo2.pessoa.Pessoa">
-              <point x="0.0" y="-27.5" />
-              <point x="258.0" y="104.0" />
-              <point x="207.5" y="104.0" />
-              <point x="39.25" y="39.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-290.0" y="0.0" />
-          <SelectedNodes>
-            <node>creational_patterns.factory.factory_method.exemplo2.factory_pessoa.TestAppPessoa</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_pessoa/TestAppPessoa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31929046">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_pessoa/FabricaPessoa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/abstract_factory/monta_carro/MontaCarroPopular.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1428,7 +1331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1436,7 +1338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1444,7 +1345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.039911307">
           <caret line="2" column="3" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1452,22 +1352,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15964523">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/abstract_factory/DiagramAbstractFactory.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/abstract_factory/monta_carro/MontaCarroLuxo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2506964">
           <caret line="10" column="27" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1475,7 +1366,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17548746">
           <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/abstract_factory/TestCarroFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30083567">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1485,60 +1382,197 @@
           <ID>JAVA</ID>
           <OriginalElement />
           <nodes>
-            <node x="519.4131944444446" y="408.0">creational_patterns.factory.abstract_factory.TestCarroFactory</node>
-            <node x="725.0000000000001" y="137.5">creational_patterns.factory.abstract_factory.som.CDPlayer</node>
-            <node x="544.0" y="137.5">creational_patterns.factory.abstract_factory.roda.RodaLigaLeve</node>
-            <node x="749.5868055555557" y="0.0">creational_patterns.factory.abstract_factory.som.Som</node>
-            <node x="549.6180555555557" y="0.0">creational_patterns.factory.abstract_factory.roda.Roda</node>
-            <node x="0.0" y="137.5">creational_patterns.factory.abstract_factory.roda.RodaSimples</node>
-            <node x="875.0000000000001" y="101.0">creational_patterns.factory.abstract_factory.Carro</node>
-            <node x="325.00000000000006" y="125.5">creational_patterns.factory.abstract_factory.monta_carro.MontaCarroFactory</node>
-            <node x="173.00000000000006" y="137.5">creational_patterns.factory.abstract_factory.som.TocaFitas</node>
-            <node x="532.7013888888889" y="279.0">creational_patterns.factory.abstract_factory.monta_carro.MontaCarroLuxo</node>
-            <node x="132.3263888888889" y="279.0">creational_patterns.factory.abstract_factory.monta_carro.MontaCarroPopular</node>
+            <node x="504.35069444444434" y="408.0">creational_patterns.factory.abstract_factory.TestCarroFactory</node>
+            <node x="544.0" y="137.5">creational_patterns.factory.abstract_factory.som.CDPlayer</node>
+            <node x="694.0" y="137.5">creational_patterns.factory.abstract_factory.roda.RodaLigaLeve</node>
+            <node x="535.8888888888889" y="0.0">creational_patterns.factory.abstract_factory.som.Som</node>
+            <node x="731.59375" y="0.0">creational_patterns.factory.abstract_factory.roda.Roda</node>
+            <node x="875.0" y="101.0">creational_patterns.factory.abstract_factory.Carro</node>
+            <node x="152.0" y="137.5">creational_patterns.factory.abstract_factory.roda.RodaSimples</node>
+            <node x="325.0" y="125.5">creational_patterns.factory.abstract_factory.monta_carro.MontaCarroFactory</node>
+            <node x="0.0" y="137.5">creational_patterns.factory.abstract_factory.som.TocaFitas</node>
+            <node x="516.9722222222222" y="279.0">creational_patterns.factory.abstract_factory.monta_carro.MontaCarroLuxo</node>
+            <node x="126.84722222222217" y="279.0">creational_patterns.factory.abstract_factory.monta_carro.MontaCarroPopular</node>
           </nodes>
           <notes />
           <edges>
             <edge source="creational_patterns.factory.abstract_factory.monta_carro.MontaCarroPopular" target="creational_patterns.factory.abstract_factory.monta_carro.MontaCarroFactory">
               <point x="66.33333333333331" y="-39.5" />
-              <point x="298.15972222222223" y="254.0" />
-              <point x="374.75000000000006" y="254.0" />
+              <point x="292.6805555555555" y="254.0" />
+              <point x="374.75" y="254.0" />
               <point x="-49.75" y="39.5" />
             </edge>
             <edge source="creational_patterns.factory.abstract_factory.roda.RodaLigaLeve" target="creational_patterns.factory.abstract_factory.roda.Roda">
               <point x="0.0" y="-27.5" />
-              <point x="624.5" y="71.0" />
-              <point x="582.6180555555557" y="71.0" />
+              <point x="774.5" y="81.0" />
+              <point x="764.59375" y="81.0" />
               <point x="0.0" y="15.5" />
             </edge>
             <edge source="creational_patterns.factory.abstract_factory.roda.RodaSimples" target="creational_patterns.factory.abstract_factory.roda.Roda">
               <point x="0.0" y="-27.5" />
-              <point x="76.5" y="71.0" />
-              <point x="560.6180555555557" y="71.0" />
+              <point x="228.5" y="81.0" />
+              <point x="742.59375" y="81.0" />
               <point x="-22.0" y="15.5" />
             </edge>
             <edge source="creational_patterns.factory.abstract_factory.som.CDPlayer" target="creational_patterns.factory.abstract_factory.som.Som">
               <point x="0.0" y="-27.5" />
-              <point x="790.0000000000001" y="81.0" />
-              <point x="780.5868055555557" y="81.0" />
+              <point x="609.0" y="71.0" />
+              <point x="566.8888888888889" y="71.0" />
               <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="creational_patterns.factory.abstract_factory.Carro" target="creational_patterns.factory.abstract_factory.roda.Roda">
+              <point x="45.5" y="-64.0" />
+              <point x="1011.5" y="51.0" />
+              <point x="786.59375" y="51.0" />
+              <point x="22.0" y="15.5" />
+            </edge>
+            <edge source="creational_patterns.factory.abstract_factory.TestCarroFactory" target="creational_patterns.factory.abstract_factory.monta_carro.MontaCarroPopular">
+              <point x="-83.33333333333326" y="-39.5" />
+              <point x="546.0173611111111" y="383.0" />
+              <point x="226.34722222222217" y="383.0" />
+              <point x="0.0" y="39.5" />
+            </edge>
+            <edge source="creational_patterns.factory.abstract_factory.monta_carro.MontaCarroLuxo" target="creational_patterns.factory.abstract_factory.som.CDPlayer">
+              <point x="0.0" y="-39.5" />
+              <point x="616.4722222222222" y="254.0" />
+              <point x="609.0" y="254.0" />
+              <point x="0.0" y="27.5" />
             </edge>
             <edge source="creational_patterns.factory.abstract_factory.monta_carro.MontaCarroLuxo" target="creational_patterns.factory.abstract_factory.monta_carro.MontaCarroFactory">
               <point x="-66.33333333333326" y="-39.5" />
-              <point x="565.8680555555557" y="254.0" />
-              <point x="474.25000000000006" y="254.0" />
+              <point x="550.1388888888889" y="254.0" />
+              <point x="474.25" y="254.0" />
               <point x="49.75" y="39.5" />
+            </edge>
+            <edge source="creational_patterns.factory.abstract_factory.monta_carro.MontaCarroPopular" target="creational_patterns.factory.abstract_factory.roda.RodaSimples">
+              <point x="0.0" y="-39.5" />
+              <point x="226.34722222222217" y="254.0" />
+              <point x="228.5" y="254.0" />
+              <point x="0.0" y="27.5" />
+            </edge>
+            <edge source="creational_patterns.factory.abstract_factory.TestCarroFactory" target="creational_patterns.factory.abstract_factory.monta_carro.MontaCarroLuxo">
+              <point x="0.0" y="-39.5" />
+              <point x="629.3506944444443" y="383.0" />
+              <point x="616.4722222222222" y="383.0" />
+              <point x="0.0" y="39.5" />
+            </edge>
+            <edge source="creational_patterns.factory.abstract_factory.Carro" target="creational_patterns.factory.abstract_factory.som.Som">
+              <point x="-45.5" y="-64.0" />
+              <point x="920.5" y="61.0" />
+              <point x="587.5555555555554" y="61.0" />
+              <point x="20.66666666666663" y="15.5" />
+            </edge>
+            <edge source="creational_patterns.factory.abstract_factory.TestCarroFactory" target="creational_patterns.factory.abstract_factory.Carro">
+              <point x="83.33333333333337" y="-39.5" />
+              <point x="712.6840277777777" y="383.0" />
+              <point x="966.0" y="383.0" />
+              <point x="0.0" y="64.0" />
+            </edge>
+            <edge source="creational_patterns.factory.abstract_factory.monta_carro.MontaCarroPopular" target="creational_patterns.factory.abstract_factory.som.TocaFitas">
+              <point x="-66.33333333333331" y="-39.5" />
+              <point x="160.01388888888886" y="254.0" />
+              <point x="66.0" y="254.0" />
+              <point x="0.0" y="27.5" />
             </edge>
             <edge source="creational_patterns.factory.abstract_factory.som.TocaFitas" target="creational_patterns.factory.abstract_factory.som.Som">
               <point x="0.0" y="-27.5" />
-              <point x="239.00000000000006" y="81.0" />
-              <point x="759.920138888889" y="81.0" />
+              <point x="66.0" y="71.0" />
+              <point x="546.2222222222222" y="71.0" />
               <point x="-20.66666666666663" y="15.5" />
             </edge>
+            <edge source="creational_patterns.factory.abstract_factory.monta_carro.MontaCarroLuxo" target="creational_patterns.factory.abstract_factory.roda.RodaLigaLeve">
+              <point x="66.33333333333337" y="-39.5" />
+              <point x="682.8055555555555" y="254.0" />
+              <point x="774.5" y="254.0" />
+              <point x="0.0" y="27.5" />
+            </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="490.5" y="244.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="42.5" y="45.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33962265">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.87234044">
+            <caret line="53" column="15" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/FactoryMethodDiagram1.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="137.0" y="210.0">creational_patterns.factory.factory_method.exemplo1.factory_draw.FabricaDesenho</node>
+            <node x="162.0" y="315.0">creational_patterns.factory.factory_method.exemplo1.factory_draw.TestAppDesenho</node>
+            <node x="348.0" y="105.0">creational_patterns.factory.factory_method.exemplo1.shape.Circulo</node>
+            <node x="0.0" y="105.0">creational_patterns.factory.factory_method.exemplo1.shape.Retangulo</node>
+            <node x="174.0" y="0.0">creational_patterns.factory.factory_method.exemplo1.shape.Forma</node>
+            <node x="174.0" y="105.0">creational_patterns.factory.factory_method.exemplo1.shape.Quadrado</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="creational_patterns.factory.factory_method.exemplo1.shape.Quadrado" target="creational_patterns.factory.factory_method.exemplo1.shape.Forma">
+              <point x="0.0" y="-27.5" />
+              <point x="0.0" y="27.5" />
+            </edge>
+            <edge source="creational_patterns.factory.factory_method.exemplo1.factory_draw.FabricaDesenho" target="creational_patterns.factory.factory_method.exemplo1.shape.Retangulo">
+              <point x="-76.0" y="-27.5" />
+              <point x="175.0" y="185.0" />
+              <point x="77.0" y="185.0" />
+              <point x="0.0" y="27.5" />
+            </edge>
+            <edge source="creational_patterns.factory.factory_method.exemplo1.shape.Circulo" target="creational_patterns.factory.factory_method.exemplo1.shape.Forma">
+              <point x="0.0" y="-27.5" />
+              <point x="425.0" y="80.0" />
+              <point x="302.33333333333337" y="80.0" />
+              <point x="51.33333333333337" y="27.5" />
+            </edge>
+            <edge source="creational_patterns.factory.factory_method.exemplo1.factory_draw.FabricaDesenho" target="creational_patterns.factory.factory_method.exemplo1.shape.Quadrado">
+              <point x="0.0" y="-27.5" />
+              <point x="0.0" y="27.5" />
+            </edge>
+            <edge source="creational_patterns.factory.factory_method.exemplo1.factory_draw.FabricaDesenho" target="creational_patterns.factory.factory_method.exemplo1.shape.Circulo">
+              <point x="76.0" y="-27.5" />
+              <point x="327.0" y="185.0" />
+              <point x="425.0" y="185.0" />
+              <point x="0.0" y="27.5" />
+            </edge>
+            <edge source="creational_patterns.factory.factory_method.exemplo1.shape.Retangulo" target="creational_patterns.factory.factory_method.exemplo1.shape.Forma">
+              <point x="0.0" y="-27.5" />
+              <point x="77.0" y="80.0" />
+              <point x="199.66666666666666" y="80.0" />
+              <point x="-51.33333333333334" y="27.5" />
+            </edge>
+            <edge source="creational_patterns.factory.factory_method.exemplo1.factory_draw.TestAppDesenho" target="creational_patterns.factory.factory_method.exemplo1.factory_draw.FabricaDesenho">
+              <point x="0.0" y="-27.5" />
+              <point x="0.0" y="27.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-235.0" y="-13.0" />
           <SelectedNodes>
-            <node>creational_patterns.factory.abstract_factory.monta_carro.MontaCarroLuxo</node>
+            <node>creational_patterns.factory.factory_method.exemplo1.factory_draw.FabricaDesenho</node>
           </SelectedNodes>
           <Categories>
             <Category>Fields</Category>
@@ -1550,13 +1584,170 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/abstract_factory/TestCarroFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/FactoryMethodDiagram1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/abstract_factory/DiagramAbstractFactory.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/shape/Forma.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30083567">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/factory_draw/FabricaDesenho.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13953489">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo1/factory_draw/TestAppDesenho.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41860464">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/emissor/EmissorSMS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/emissor/EmissorJMS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13953489">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/emissor/Emissor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11960133">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_emissor/TestAppEmissor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15946844">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_emissor/FabricaEmissor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15946844">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/emissor/EmissorEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="66" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_emissor/EmissorSincrono.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/FactoryMethodDiagram2.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="311.0" y="178.0">creational_patterns.factory.factory_method.exemplo2.factory_emissor.EmissorAssincrono</node>
+            <node x="0.0" y="508.0">creational_patterns.factory.factory_method.exemplo2.factory_emissor.TestAppEmissor</node>
+            <node x="189.0" y="383.0">creational_patterns.factory.factory_method.exemplo2.emissor.EmissorEmail</node>
+            <node x="219.5" y="0.0">creational_patterns.factory.factory_method.exemplo2.factory_emissor.FabricaEmissor</node>
+            <node x="0.0" y="383.0">creational_patterns.factory.factory_method.exemplo2.emissor.EmissorJMS</node>
+            <node x="0.0" y="178.0">creational_patterns.factory.factory_method.exemplo2.factory_emissor.EmissorSincrono</node>
+            <node x="192.0" y="278.0">creational_patterns.factory.factory_method.exemplo2.emissor.Emissor</node>
+            <node x="386.0" y="383.0">creational_patterns.factory.factory_method.exemplo2.emissor.EmissorSMS</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="creational_patterns.factory.factory_method.exemplo2.factory_emissor.EmissorAssincrono" target="creational_patterns.factory.factory_method.exemplo2.factory_emissor.FabricaEmissor">
+              <point x="0.0" y="-27.5" />
+              <point x="456.5" y="153.0" />
+              <point x="341.75" y="153.0" />
+              <point x="40.75" y="64.0" />
+            </edge>
+            <edge source="creational_patterns.factory.factory_method.exemplo2.emissor.EmissorEmail" target="creational_patterns.factory.factory_method.exemplo2.emissor.Emissor">
+              <point x="0.0" y="-40.0" />
+              <point x="0.0" y="27.5" />
+            </edge>
+            <edge source="creational_patterns.factory.factory_method.exemplo2.emissor.EmissorJMS" target="creational_patterns.factory.factory_method.exemplo2.emissor.Emissor">
+              <point x="0.0" y="-40.0" />
+              <point x="84.5" y="358.0" />
+              <point x="220.5" y="358.0" />
+              <point x="-57.0" y="27.5" />
+            </edge>
+            <edge source="creational_patterns.factory.factory_method.exemplo2.factory_emissor.EmissorSincrono" target="creational_patterns.factory.factory_method.exemplo2.factory_emissor.FabricaEmissor">
+              <point x="0.0" y="-27.5" />
+              <point x="145.5" y="153.0" />
+              <point x="260.25" y="153.0" />
+              <point x="-40.75" y="64.0" />
+            </edge>
+            <edge source="creational_patterns.factory.factory_method.exemplo2.emissor.EmissorSMS" target="creational_patterns.factory.factory_method.exemplo2.emissor.Emissor">
+              <point x="0.0" y="-40.0" />
+              <point x="470.5" y="358.0" />
+              <point x="334.5" y="358.0" />
+              <point x="57.0" y="27.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-154.5" y="83.5" />
+          <SelectedNodes>
+            <node>creational_patterns.factory.factory_method.exemplo2.factory_emissor.EmissorAssincrono</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational_patterns/factory/factory_method/exemplo2/factory_emissor/EmissorAssincrono.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23920266">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
