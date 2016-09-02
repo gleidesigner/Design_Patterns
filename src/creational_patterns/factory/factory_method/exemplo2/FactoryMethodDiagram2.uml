@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="532.6666666666667" y="214.5">creational_patterns.factory.factory_method.exemplo2.emissor.EmissorEmail</node>
+    <node x="632.1666666666667" y="333.0">creational_patterns.factory.factory_method.exemplo2.factory_emissor.FabricaEmissor</node>
+    <node x="597.5" y="616.0">creational_patterns.factory.factory_method.exemplo2.factory_emissor.TestAppEmissor</node>
+    <node x="723.6666666666667" y="214.5">creational_patterns.factory.factory_method.exemplo2.emissor.EmissorJMS</node>
+    <node x="656.6666666666667" y="96.0">creational_patterns.factory.factory_method.exemplo2.emissor.Emissor</node>
+    <node x="813.125" y="511.0">creational_patterns.factory.factory_method.exemplo2.factory_emissor.FabricaEmissorAssincrono</node>
+    <node x="463.0" y="511.0">creational_patterns.factory.factory_method.exemplo2.factory_emissor.FabricaEmissorSincrono</node>
+    <node x="959.0416666666667" y="214.5">creational_patterns.factory.factory_method.exemplo2.emissor.EmissorSMS</node>
+  </nodes>
+  <notes>
+    <note x="543.1666666666667" y="0.0">
+      <node>creational_patterns.factory.factory_method.exemplo2.emissor.Emissor</node>
+      <value>Product:: Class ou interface que define o \nobjeto a ser criado.</value>
+      <edge>
+        <point x="0.0" y="-27.5" />
+        <point x="0.0" y="23.0" />
+      </edge>
+    </note>
+    <note x="15.666666666666742" y="201.0">
+      <node>creational_patterns.factory.factory_method.exemplo2.factory_emissor.FabricaEmissor</node>
+      <value>Creator:: Classe ou Interface que define a assinatura\ndo métedo responsável pela criação do produto.\nPode possuir um implementação padrão do método\nde criação do produto.</value>
+      <edge>
+        <point x="-61.125" y="-64.0" />
+        <point x="652.5416666666667" y="313.0" />
+        <point x="264.16666666666674" y="313.0" />
+        <point x="0.0" y="41.0" />
+      </edge>
+    </note>
+    <note x="0.0" y="524.5">
+      <node>creational_patterns.factory.factory_method.exemplo2.factory_emissor.TestAppEmissor</node>
+      <value>Client:: Aplicação que usar o Product e Creator</value>
+      <edge>
+        <point x="-66.75" y="-27.5" />
+        <point x="619.75" y="596.0" />
+        <point x="221.5" y="596.0" />
+        <point x="0.0" y="14.0" />
+      </edge>
+    </note>
+    <note x="827.875" y="374.0">
+      <node>creational_patterns.factory.factory_method.exemplo2.factory_emissor.FabricaEmissorAssincrono</node>
+      <value>ConcreteCreator:: Classe que implementa ou\nsobrescreve o método de criação do produto.</value>
+      <edge>
+        <point x="72.75" y="-27.5" />
+        <point x="0.0" y="23.0" />
+      </edge>
+    </note>
+    <note x="870.2916666666667" y="100.5">
+      <node>creational_patterns.factory.factory_method.exemplo2.emissor.EmissorSMS</node>
+      <value>ConcreteProduct:: Uma implementação particular\ndo tipo de objeto a ser criado</value>
+      <edge>
+        <point x="42.75" y="-27.5" />
+        <point x="0.0" y="23.0" />
+      </edge>
+    </note>
+  </notes>
+  <edges>
+    <edge source="creational_patterns.factory.factory_method.exemplo2.factory_emissor.FabricaEmissor" target="creational_patterns.factory.factory_method.exemplo2.emissor.EmissorJMS">
+      <point x="20.375" y="-64.0" />
+      <point x="734.0416666666667" y="303.0" />
+      <point x="809.1666666666667" y="303.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="creational_patterns.factory.factory_method.exemplo2.factory_emissor.TestAppEmissor" target="creational_patterns.factory.factory_method.exemplo2.factory_emissor.FabricaEmissorSincrono">
+      <point x="-22.25" y="-27.5" />
+      <point x="664.25" y="586.0" />
+      <point x="608.5" y="586.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="creational_patterns.factory.factory_method.exemplo2.factory_emissor.FabricaEmissorSincrono" target="creational_patterns.factory.factory_method.exemplo2.factory_emissor.FabricaEmissor">
+      <point x="0.0" y="-27.5" />
+      <point x="608.5" y="491.0" />
+      <point x="659.3333333333334" y="491.0" />
+      <point x="-54.33333333333337" y="64.0" />
+    </edge>
+    <edge source="creational_patterns.factory.factory_method.exemplo2.factory_emissor.TestAppEmissor" target="creational_patterns.factory.factory_method.exemplo2.factory_emissor.FabricaEmissorAssincrono">
+      <point x="66.75" y="-27.5" />
+      <point x="753.25" y="596.0" />
+      <point x="958.625" y="596.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="creational_patterns.factory.factory_method.exemplo2.factory_emissor.FabricaEmissorAssincrono" target="creational_patterns.factory.factory_method.exemplo2.factory_emissor.FabricaEmissor">
+      <point x="-72.75" y="-27.5" />
+      <point x="885.875" y="481.0" />
+      <point x="768.0000000000001" y="481.0" />
+      <point x="54.33333333333337" y="64.0" />
+    </edge>
+    <edge source="creational_patterns.factory.factory_method.exemplo2.emissor.EmissorSMS" target="creational_patterns.factory.factory_method.exemplo2.emissor.Emissor">
+      <point x="-42.75" y="-27.5" />
+      <point x="1001.7916666666667" y="171.0" />
+      <point x="799.1666666666667" y="171.0" />
+      <point x="57.0" y="27.5" />
+    </edge>
+    <edge source="creational_patterns.factory.factory_method.exemplo2.factory_emissor.FabricaEmissor" target="creational_patterns.factory.factory_method.exemplo2.emissor.EmissorSMS">
+      <point x="61.125" y="-64.0" />
+      <point x="774.7916666666667" y="313.0" />
+      <point x="1044.5416666666667" y="313.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="creational_patterns.factory.factory_method.exemplo2.factory_emissor.FabricaEmissor" target="creational_patterns.factory.factory_method.exemplo2.emissor.EmissorEmail">
+      <point x="-20.375" y="-64.0" />
+      <point x="693.2916666666667" y="303.0" />
+      <point x="618.1666666666667" y="303.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="creational_patterns.factory.factory_method.exemplo2.emissor.EmissorEmail" target="creational_patterns.factory.factory_method.exemplo2.emissor.Emissor">
+      <point x="0.0" y="-27.5" />
+      <point x="618.1666666666667" y="181.0" />
+      <point x="685.1666666666667" y="181.0" />
+      <point x="-57.0" y="27.5" />
+    </edge>
+    <edge source="creational_patterns.factory.factory_method.exemplo2.emissor.EmissorJMS" target="creational_patterns.factory.factory_method.exemplo2.emissor.Emissor">
+      <point x="0.0" y="-27.5" />
+      <point x="809.1666666666667" y="181.0" />
+      <point x="742.1666666666667" y="181.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="creational_patterns.factory.factory_method.exemplo2.factory_emissor.TestAppEmissor" target="creational_patterns.factory.factory_method.exemplo2.factory_emissor.FabricaEmissor">
+      <point x="22.25" y="-27.5" />
+      <point x="708.75" y="586.0" />
+      <point x="764.5" y="586.0" />
+      <point x="764.5" y="491.0" />
+      <point x="713.6666666666667" y="491.0" />
+      <point x="0.0" y="64.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="652.5" y="335.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
