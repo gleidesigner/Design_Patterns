@@ -7,16 +7,35 @@ import creational_patterns.factory.factory_method.exemplo2.emissor.Emissor;
  */
 public class TestAppEmissor {
     public static void main (String [] args){
-        FabricaEmissor emissorAssincrono = new EmissorAssincrono();
-        Emissor emissorA = emissorAssincrono.getEmissorMessagem(FabricaEmissor.SMS);
-        emissorA.envia("K19 - Treinamentos");
+        FabricaEmissor fabricaEmissorAssincrono = new FabricaEmissorAssincrono();
+        Emissor emissorAssincronoEmail = fabricaEmissorAssincrono.getEmissorMessagem(FabricaEmissor.EMAIL);
+        emissorAssincronoEmail.envia("Messagem Enviada via:: ");
 
-        FabricaEmissor emissorSincrono = new EmissorSincrono();
-        Emissor emissorS = emissorSincrono.getEmissorMessagem(FabricaEmissor.EMAIL);
-        emissorA.envia("K19 - Treinamentos");
+        Emissor emissorAssincronoSMS = fabricaEmissorAssincrono.getEmissorMessagem(FabricaEmissor.SMS);
+        emissorAssincronoSMS.envia("Messagem Enviada via:: ");
 
-        FabricaEmissor emissor = new FabricaEmissor();
-        Emissor emissorNormal = emissor.getEmissorMessagem(FabricaEmissor.JMS);
-        emissorA.envia("K19 - Treinamentos");
+        Emissor emissorAssincronoJMS = fabricaEmissorAssincrono.getEmissorMessagem(FabricaEmissor.JMS);
+        emissorAssincronoJMS.envia("Messagem Enviada via:: ");
+
+        FabricaEmissor fabricaEmissorSincrono = new FabricaEmissorSincrono();
+        Emissor emissorSincronoEmail = fabricaEmissorSincrono.getEmissorMessagem(FabricaEmissor.EMAIL);
+        emissorSincronoEmail.envia("\nMessagem Enviada via:: ");
+
+        Emissor emissorSincronoSMS = fabricaEmissorSincrono.getEmissorMessagem(FabricaEmissor.SMS);
+        emissorSincronoSMS.envia("Messagem Enviada via:: ");
+
+        Emissor emissorSincronoJMS = fabricaEmissorSincrono.getEmissorMessagem(FabricaEmissor.JMS);
+        emissorSincronoJMS.envia("Messagem Enviada via:: ");
+
+
+        FabricaEmissor fabricaEmissor = new FabricaEmissor();
+        Emissor emissorSMS = fabricaEmissor.getEmissorMessagem(FabricaEmissor.SMS);
+        emissorSMS.envia("\nMessagem Enviada via:: ");
+
+        Emissor emissorEmail = fabricaEmissor.getEmissorMessagem(FabricaEmissor.EMAIL);
+        emissorEmail.envia("Messagem Enviada via:: ");
+
+        Emissor emissorJMS = fabricaEmissor.getEmissorMessagem(FabricaEmissor.JMS);
+        emissorJMS.envia("Messagem Enviada via:: ");
     }
 }

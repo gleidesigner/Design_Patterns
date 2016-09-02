@@ -5,10 +5,6 @@ package creational_patterns.factory.factory_method.exemplo2.emissor;
  */
 public class EmissorJMS implements Emissor {
 
-    public EmissorJMS() {
-        envia("Messagem Enviada via: ");
-    }
-
     @Override
     public void envia(String msg) {
         System.out.println(msg + this.getClass().getSimpleName());

@@ -5,5 +5,4 @@ package creational_patterns.factory.factory_method.exemplo2.emissor;
  */
 public interface Emissor {
     void envia(String msg);
-
 }
